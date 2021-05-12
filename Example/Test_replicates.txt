@@ -1,0 +1,4 @@
+GSE165955_fpkm_3.txt	Healthy	GSM5059236_1_NI_1_rsem.genes.results.txt, GSM5059237_2_NI_2_rsem.genes.results.txt, GSM5059238_3_NI_3_rsem.genes.results.txt
+GSE165955_fpkm_3.txt	Healthy_Remdesivir	GSM5059239_4_NI_Remd_1_rsem.genes.results.txt, GSM5059240_5_NI_Remd_2_rsem.genes.results.txt, GSM5059241_6_NI_Remd_3_rsem.genes.results.txt
+GSE165955_fpkm_3.txt	CoV_Infected	GSM5059242_7_CoV_1_rsem.genes.results.txt, GSM5059243_8_CoV_2_rsem.genes.results.txt, GSM5059244_9_CoV_3_rsem.genes.results.txt
+GSE165955_fpkm_3.txt	CoV_Infected_Remdesivir	GSM5059245_10_CoV_Remd_1_rsem.genes.results.txt, GSM5059246_11_CoV_Remd_2_rsem.genes.results.txt, GSM5059247_12_CoV_Remd_3_rsem.genes.results.txt
