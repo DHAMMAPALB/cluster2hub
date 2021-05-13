@@ -1,0 +1,10 @@
+Methods	[['k-means']]
+K values (Ks)	[4, 8, 12, 16, 20]
+Tightness weight	1.0
+Q3s outliers threshold	2.0
+Genes included if at least in datasets	1
+Filtering: Data value threshold	-inf
+Filtering: At least in conditions	0
+Filtering: At least in datasets	0
+Is deterministic?	False
+Seed methods	[['k-means']]
