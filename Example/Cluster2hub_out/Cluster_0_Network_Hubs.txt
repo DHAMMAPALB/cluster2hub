@@ -1,5 +1,0 @@
-Node	Degree	Color	Type
-TP53	6	pink	Transcription_factor
-KDM1A	5	pink	Transcription_factor
-STAT3	4	pink	Transcription_factor
-YAP1	4	pink	Transcription_factor
