@@ -1,0 +1,2 @@
+Node	Degree	Color	Type
+EGFR	8	blue	Kinase
