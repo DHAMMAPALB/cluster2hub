@@ -1,4 +1,4 @@
-# cluster2hub identifies hubs in the gene co-expression cluster network
+# cluster2hub: For the identification of hubs in the gene co-expression cluster network
 This pipeline identifies transcription factors, kinases and other proteins as hubs in the networks of gene co-expression clusters. I present an integrative approach to construct protein interactions networks of transcription factors, kinases and proteins of optimal gene co-expression clusters and identify functional annotations and pathways and drug chemical interactions of hubs.
 
 # Requirements
