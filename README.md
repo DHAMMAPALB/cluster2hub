@@ -48,17 +48,20 @@ cluster2hub -f Test.txt -r Test_replicates.txt -p PPIs.txt -t 2 -i dgi.tsv -d Cl
 
 #### The example figures:
 
-![Clusters plot](Example/Cluster2hub_out/Clusters_profiles.pdf "Cluster profiles")
+#![Clusters plot](Example/Cluster2hub_out/Clusters_profiles.pdf "Cluster profiles")
 
 *Figure 1: Clusters plot.
+[Figure 1.pdf](https://github.com/DHAMMAPALB/cluster2hub/issues/1)
 
-![PPIs network](Example/Cluster2hub_out/Cluster_0_Network.pdf "Cluster 0 protein interactions network")
+#![PPIs network](Example/Cluster2hub_out/Cluster_0_Network.pdf "Cluster 0 protein interactions network")
 
 *Figure 2: Clusters 0 protein interactions network. Pink nodes are transcription factors, blue are kinases and green nodes are the proteins in the Cluster 0.
+[Figure 2.pdf](https://github.com/DHAMMAPALB/cluster2hub/issues/2)
 
-![PPIs network](Example/Cluster2hub_out/Cluster_1_Network.pdf "Cluster 1 protein interactions network")
+#![PPIs network](Example/Cluster2hub_out/Cluster_1_Network.pdf "Cluster 1 protein interactions network")
 
 *Figure 3: Clusters 1 protein interactions network. Pink nodes are transcription factors, blue are kinases and green nodes are the proteins in the Cluster 1.
+[Figure 3.pdf](https://github.com/DHAMMAPALB/cluster2hub/issues/3)
 
 # References
 
