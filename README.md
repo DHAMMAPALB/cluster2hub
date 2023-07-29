@@ -48,17 +48,17 @@ cluster2hub -f Test.txt -r Test_replicates.txt -p PPIs.txt -t 2 -i dgi.tsv -d Cl
 
 #### The example figures:
 
-*Figure 1: Clusters plot.
-
 [Figure 1.pdf](https://github.com/DHAMMAPALB/cluster2hub/issues/4)
 
-*Figure 2: Clusters 0 protein interactions network. Pink nodes are transcription factors, blue are kinases and green nodes are the proteins in the Cluster 0.
+*Figure 1: Clusters plot.
 
 [Figure 2.pdf](https://github.com/DHAMMAPALB/cluster2hub/issues/5)
 
-*Figure 3: Clusters 1 protein interactions network. Pink nodes are transcription factors, blue are kinases and green nodes are the proteins in the Cluster 1.
+*Figure 2: Clusters 0 protein interactions network. Pink nodes are transcription factors, blue are kinases and green nodes are the proteins in the Cluster 0.
 
 [Figure 3.pdf](https://github.com/DHAMMAPALB/cluster2hub/issues/6)
+
+*Figure 3: Clusters 1 protein interactions network. Pink nodes are transcription factors, blue are kinases and green nodes are the proteins in the Cluster 1.
 
 # References
 
