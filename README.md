@@ -54,11 +54,11 @@ Figure 1: Clusters plot.
 
 [Figure 2.png](https://github.com/DHAMMAPALB/cluster2hub/issues/5)
 
-Figure 2: Clusters 0 protein interactions network. Pink nodes are transcription factors, blue are kinases and green nodes are the proteins in the Cluster 0.
+Figure 2: Clusters 0 protein interactions network. Burlywood nodes are transcription factors, skyblue are kinases and darkolivegreen nodes are the proteins in the Cluster 0.
 
 [Figure 3.png](https://github.com/DHAMMAPALB/cluster2hub/issues/6)
 
-Figure 3: Clusters 1 protein interactions network. Pink nodes are transcription factors, blue are kinases and green nodes are the proteins in the Cluster 1.
+Figure 3: Clusters 1 protein interactions network. Burlywood nodes are transcription factors, skyblue are kinases and darkolivegreen nodes are the proteins in the Cluster 1.
 
 # References
 
