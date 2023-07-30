@@ -30,10 +30,10 @@ for(i in 1:nclust)
 	kstfsp_uniq<-unique(sort(kstfsp))
 	others<-which(1:length(nodes_i)%in%kstfsp_uniq==FALSE)
 	colrs<-c()
-	colrs[others]<-"grey"
-	colrs[p]<-"green"
-	colrs[tfs]<-"pink"
-	colrs[ks]<-"blue"
+	colrs[others]<-"gray"
+	colrs[p]<-"darkolivegreen2"
+	colrs[tfs]<-"burlywood"
+	colrs[ks]<-"skyblue"
 	p_type<-c()
 	p_type[others]<-"Others"
 	p_type[p]<-"Interacting_protein"
@@ -41,18 +41,22 @@ for(i in 1:nclust)
 	p_type[ks]<-"Kinase"
 	g<-graph_from_data_frame(ppis,directed=F)
 	g2<-simplify(g)
-	denom<-length(names(V(g2)))/length(which(degree(g2)>2))
-	V(g2)$size<-1+(degree(g2)/denom)
+	lnodes<-length(names(V(g2)))
+	if(length(lnodes)<1000){msize=3} else if(length(lnodes)<2000){msize=2} else {msize=1}
+	deg<-degree(g2,mode="all")
+	deg_u<-sort(unique(as.character(deg)))
+	deg_ul<-length(deg_u)
+	vsize<-(deg/deg_ul)+msize
+	V(g2)$size<-vsize
 	V(g2)$color<-colrs
 	V(g2)$frame.color<-colrs
 	out_ntwk<-paste("Cluster",i-1,"Network.pdf",sep="_")
 	pdf(out_ntwk)
-	lcex=(length(names(V(g2)))-length(which(degree(g2)<=3)))/(length(names(V(g2))))
-	ewid=(length(names(V(g2)))-length(which(degree(g2)<=3)))/(length(names(V(g2))))
+	lcex=vsize/12
+	ewid=0.1
 	plot(g2,vertex.label.cex=lcex,edge.width=ewid)
 	dev.off()
 	print(paste("Identifying hubs in the protein interactions networks of Cluster ",i-1," ... ",sep=""))
-	deg<-degree(g2,mode="all")
 	deg_colrs<-data.frame(names(deg),deg,colrs)
 	deg_colrs_type<-cbind(deg_colrs,p_type)
 	colnames(deg_colrs_type)<-c("Node","Degree","Color","Type")
