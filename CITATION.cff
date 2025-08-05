@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Bharne"
+  given-names: "Dhammapal"
+title: "cluster2hub"
+date-released: 2023-07-30
+url: "https://github.com/DHAMMAPALB/cluster2hub"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Bharne"
+    given-names: "Dhammapal"
+    orcid: "https://orcid.org/0000-0001-6729-1699"
+  doi: "10.26479/2025.1104.01"
+  journal: "Research Journal of Life Sciences Bioinformatics Pharmaceutical and Chemical Sciences"
+  month: 8
+  start: 1
+  end: 10
+  title: "Gene Regulatory Network of Covid-19 in Drug Induced Vero Cells"
+  issue: 4
+  volume: 11
+  year: 2025
